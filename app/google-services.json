@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "677338531050",
+    "project_id": "profiler-7be61",
+    "storage_bucket": "profiler-7be61.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:677338531050:android:d3bfe0ca18395d5fcbc393",
+        "android_client_info": {
+          "package_name": "com.example.profiler"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAG2UoNaFkmy1HZaCqJCOqViEZrHMuzl7g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

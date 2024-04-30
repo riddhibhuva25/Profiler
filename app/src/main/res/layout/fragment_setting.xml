@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".SettingFragment">
+
+    <TextView
+        android:id="@+id/txtSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:id="@+id/txtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change Password"
+        android:textColor="@color/black"
+        android:padding="16dp"
+        android:drawableStart="@drawable/ic_lock"
+        android:drawablePadding="10dp"
+        android:background="@color/ashGray"
+        android:drawableEnd="@drawable/ic_next"
+        app:layout_constraintTop_toBottomOf="@+id/txtSettings"
+        android:textSize="14sp"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:id="@+id/aboutUS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        android:textColor="@color/black"
+        android:padding="16dp"
+        android:drawableStart="@drawable/ic_aboutus"
+        android:drawablePadding="10dp"
+        android:background="@color/ashGray"
+        android:drawableEnd="@drawable/ic_next"
+        app:layout_constraintTop_toBottomOf="@+id/txtPassword"
+        android:textSize="14sp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/share"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share"
+        android:textColor="@color/black"
+        android:padding="16dp"
+        android:drawableStart="@drawable/ic_share"
+        android:drawablePadding="10dp"
+        android:background="@color/ashGray"
+        android:drawableEnd="@drawable/ic_next"
+        app:layout_constraintTop_toBottomOf="@+id/aboutUS"
+        android:textSize="14sp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Us"
+        android:textColor="@color/black"
+        android:padding="16dp"
+        android:drawableStart="@drawable/ic_contact"
+        android:drawablePadding="10dp"
+        android:background="@color/ashGray"
+        android:drawableEnd="@drawable/ic_next"
+        app:layout_constraintTop_toBottomOf="@+id/share"
+        android:textSize="14sp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/logOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:textColor="@color/black"
+        android:padding="16dp"
+        android:drawableStart="@drawable/ic_logout"
+        android:drawablePadding="10dp"
+        android:background="@color/ashGray"
+        android:drawableEnd="@drawable/ic_next"
+        app:layout_constraintTop_toBottomOf="@+id/contact"
+        android:textSize="14sp"
+        android:layout_marginTop="20dp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

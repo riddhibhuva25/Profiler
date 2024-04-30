@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Profiler</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txt_dummy">Lorem ipsum dolor sit amet, consectetur \nadipiscing elit. Praesent hendrerit lacus \nsed luctus facilisis. Proin\n condimentum a dolor.</string>
+</resources>
